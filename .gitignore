@@ -1,4 +1,4 @@
 .DS_Store
 
-# ignore large files
-/C/Users/Mich/Desktop/"Git Repos"/"Search Engine"/"Pages for Testing".zip
+# ignore data files of webpages used for testing
+C:\Users\Mich\Desktop\Git Repos\Search Analyzer

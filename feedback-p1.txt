@@ -1,0 +1,75 @@
+# Feedback
+
+Group agnes: jw21, ruby7188
+
+Commit hash: f22d33039f018dae06e5684a0d3dd7541c386f4e
+
+Final score: 58 / 60
+
+## Style check
+
+Score: 5 / 5
+
+## ArrayHeap
+
+Score: 15 / 15
+
+-   PASS: testRemoveMinEmptyQueue
+-   PASS: testSimpleUsage
+-   PASS: testAttemptNullEntries
+-   PASS: testPeekMin
+-   PASS: testInternalStructure
+-   PASS: testStringEntries
+-   PASS: testPeekEmptyQueue
+-   PASS: testInsertingDuplicates
+-   PASS: testNoisyUsage
+-   PASS: testInsertingManyElements
+
+## Searcher
+
+Score: 15 / 15
+
+-   PASS: testKEqualsN
+-   PASS: testWhenKIsBiggerThanN
+-   PASS: testNonIntegerEntries
+-   PASS: testKIs1
+-   PASS: testNIs1
+-   PASS: testInputListNotMutated
+-   PASS: testWhenKIsSameAsN
+-   PASS: testWhenKIsNegative
+-   PASS: testWhenKIsSmallerThanN
+-   PASS: testIsNLogK
+-   PASS: testWhenKIsZero
+
+## TestArrayHeapFunctionality
+
+Score: 10 / 10
+
+-   PASS: AllOk
+-   PASS: NoResize
+-   PASS: NoExceptionInPeek
+-   PASS: NoExceptionInRemovemin
+-   PASS: NoExceptionInInsert
+-   PASS: InsertDoesNotUpdateSize
+-   PASS: RemoveminDoesNotUpdateSize
+-   PASS: AssumesAllParentsHaveFourChildren
+
+## TestSortingStress
+
+Score: 5 / 5
+
+-   PASS: AllOk
+-   PASS: DeliberatelyInefficient
+
+## TestTopKSortFunctionality
+
+Score: 8 / 10
+
+-   PASS: AllOk
+-   PASS: DoesNotThrowException
+-   FAIL: DoesNotHandleKZeroCase
+
+        Unable to find bug with Searcher with does not handle k zero case
+
+-   PASS: AssumesKAlwaysLessThanN
+-   PASS: OffByOneErrorInLoop
